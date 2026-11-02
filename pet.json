@@ -1,0 +1,234 @@
+{
+  "name": "贾维斯",
+  "name_en": "Jarvis",
+  "format": "Pets sprite sheet v2",
+  "spritesheet": "assets/spritesheets/jarvis.png",
+  "image": {
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cell_width": 192,
+    "cell_height": 208
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "row": 0,
+      "start_column": 0,
+      "frame_count": 6,
+      "preview_frame_durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ]
+    },
+    {
+      "name": "running-right",
+      "row": 1,
+      "start_column": 0,
+      "frame_count": 8,
+      "preview_frame_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "name": "running-left",
+      "row": 2,
+      "start_column": 0,
+      "frame_count": 8,
+      "preview_frame_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "name": "waving",
+      "row": 3,
+      "start_column": 0,
+      "frame_count": 4,
+      "preview_frame_durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "name": "jumping",
+      "row": 4,
+      "start_column": 0,
+      "frame_count": 5,
+      "preview_frame_durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "name": "failed",
+      "row": 5,
+      "start_column": 0,
+      "frame_count": 8,
+      "preview_frame_durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ]
+    },
+    {
+      "name": "waiting",
+      "row": 6,
+      "start_column": 0,
+      "frame_count": 6,
+      "preview_frame_durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ]
+    },
+    {
+      "name": "running",
+      "row": 7,
+      "start_column": 0,
+      "frame_count": 6,
+      "preview_frame_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "name": "review",
+      "row": 8,
+      "start_column": 0,
+      "frame_count": 6,
+      "preview_frame_durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ]
+    }
+  ],
+  "look_directions": {
+    "coordinates": "viewer screen",
+    "zero": "up",
+    "order": "clockwise",
+    "step_degrees": 22.5,
+    "frames": [
+      {
+        "degrees": 0.0,
+        "row": 9,
+        "column": 0
+      },
+      {
+        "degrees": 22.5,
+        "row": 9,
+        "column": 1
+      },
+      {
+        "degrees": 45.0,
+        "row": 9,
+        "column": 2
+      },
+      {
+        "degrees": 67.5,
+        "row": 9,
+        "column": 3
+      },
+      {
+        "degrees": 90.0,
+        "row": 9,
+        "column": 4
+      },
+      {
+        "degrees": 112.5,
+        "row": 9,
+        "column": 5
+      },
+      {
+        "degrees": 135.0,
+        "row": 9,
+        "column": 6
+      },
+      {
+        "degrees": 157.5,
+        "row": 9,
+        "column": 7
+      },
+      {
+        "degrees": 180.0,
+        "row": 10,
+        "column": 0
+      },
+      {
+        "degrees": 202.5,
+        "row": 10,
+        "column": 1
+      },
+      {
+        "degrees": 225.0,
+        "row": 10,
+        "column": 2
+      },
+      {
+        "degrees": 247.5,
+        "row": 10,
+        "column": 3
+      },
+      {
+        "degrees": 270.0,
+        "row": 10,
+        "column": 4
+      },
+      {
+        "degrees": 292.5,
+        "row": 10,
+        "column": 5
+      },
+      {
+        "degrees": 315.0,
+        "row": 10,
+        "column": 6
+      },
+      {
+        "degrees": 337.5,
+        "row": 10,
+        "column": 7
+      }
+    ]
+  },
+  "note": "Layout metadata only; not an application import manifest. Preview timing is embedded in GIF files."
+}
